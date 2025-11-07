@@ -1,10 +1,10 @@
 import { TrendingUp } from "lucide-react";
 
 const stats = [
-  { label: "Meals Delivered", value: "52,847", trend: "+12%" },
-  { label: "Food Saved (kg)", value: "18,624", trend: "+23%" },
-  { label: "NGOs Connected", value: "187", trend: "+8%" },
-  { label: "Active Volunteers", value: "1,245", trend: "+15%" },
+  { label: "Meals Delivered", value: "0", trend: "+0%" },
+  { label: "Food Saved (kg)", value: "0", trend: "+0%" },
+  { label: "NGOs Connected", value: "0", trend: "+0%" },
+  { label: "Active Volunteers", value: "0", trend: "+0%" },
 ];
 
 const Stats = () => {
