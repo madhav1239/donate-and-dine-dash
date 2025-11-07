@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ArrowRight, Store, Heart, Users, CheckCircle2 } from "lucide-react";
-import heroImage from "@/assets/hero-food-donation.jpg";
 
 const Hero = () => {
   const [getStartedOpen, setGetStartedOpen] = useState(false);
@@ -45,8 +44,8 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
         
         <div className="container relative py-20 md:py-32">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-8 text-center">
               <div className="inline-block">
                 <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
                   Making a Difference, One Meal at a Time
@@ -58,11 +57,11 @@ const Hero = () => {
                 <span className="bg-gradient-hero bg-clip-text text-transparent">Hope</span>
               </h1>
               
-              <p className="text-lg text-muted-foreground max-w-xl">
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Connect restaurants, NGOs, and volunteers to eliminate food waste and deliver fresh meals to those who need them most. Together, we're building a hunger-free community.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   size="lg" 
                   variant="hero" 
@@ -79,16 +78,6 @@ const Hero = () => {
                 >
                   Learn More
                 </Button>
-              </div>
-            </div>
-
-            <div className="relative lg:block">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <img
-                  src={heroImage}
-                  alt="Community volunteers distributing fresh food"
-                  className="w-full h-auto object-cover"
-                />
               </div>
             </div>
           </div>
