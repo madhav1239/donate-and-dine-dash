@@ -12,7 +12,7 @@ const About = () => {
         <div className="bg-gradient-to-b from-primary/5 to-transparent py-20">
           <div className="container text-center max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-              About <span className="bg-gradient-hero bg-clip-text text-transparent">FoodConnect</span>
+              About <span className="bg-gradient-hero bg-clip-text text-transparent">Ann Daan</span>
             </h1>
             <p className="text-lg text-muted-foreground">
               We're on a mission to eliminate food waste and hunger by connecting those who have surplus food with those who need it most.
@@ -63,7 +63,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4">How It Works</h2>
               <p className="text-muted-foreground leading-relaxed">
-                FoodConnect is a simple yet powerful platform that bridges the gap between food surplus and food insecurity. Restaurants post their leftover food, NGOs claim what they need, and volunteers ensure timely delivery. Every stakeholder plays a crucial role in creating a sustainable and hunger-free community.
+                Ann Daan is a simple yet powerful platform that bridges the gap between food surplus and food insecurity. Restaurants post their leftover food, NGOs claim what they need, and volunteers ensure timely delivery. Every stakeholder plays a crucial role in creating a sustainable and hunger-free community.
               </p>
             </div>
 

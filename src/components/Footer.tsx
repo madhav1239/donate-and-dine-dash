@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="rounded-full bg-gradient-primary p-2">
                 <Leaf className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="bg-gradient-hero bg-clip-text text-transparent">FoodConnect</span>
+              <span className="bg-gradient-hero bg-clip-text text-transparent">Ann Daan</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Turning food waste into hope, one meal at a time.
@@ -65,15 +65,15 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                contact@foodconnect.org
+                contact@anndaan.org
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                +1 (555) 123-4567
+                +91 7455896364
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                San Francisco, CA
+                Muradnagar, India
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © 2024 FoodConnect. All rights reserved. Built with ❤️ for a better world.
+            © 2024 Ann Daan. All rights reserved. Built with ❤️ for a better world.
           </p>
         </div>
       </div>

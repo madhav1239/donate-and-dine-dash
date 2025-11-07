@@ -10,7 +10,7 @@ const Header = () => {
           <div className="rounded-full bg-gradient-primary p-2">
             <Leaf className="h-5 w-5 text-primary-foreground" />
           </div>
-          <span className="bg-gradient-hero bg-clip-text text-transparent">FoodConnect</span>
+          <span className="bg-gradient-hero bg-clip-text text-transparent">Ann Daan</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
@@ -26,6 +26,11 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-2">
+          <Link to="/get-started">
+            <Button variant="default" size="sm" className="mr-2">
+              Get Started
+            </Button>
+          </Link>
           <Link to="/login">
             <Button variant="ghost" size="sm">
               Sign In

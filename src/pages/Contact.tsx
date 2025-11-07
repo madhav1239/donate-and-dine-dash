@@ -91,7 +91,7 @@ const Contact = () => {
                     <div>
                       <p className="font-medium text-sm mb-1">Email</p>
                       <p className="text-sm text-muted-foreground">
-                        contact@foodconnect.org
+                        contact@anndaan.org
                       </p>
                     </div>
                   </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                     <div>
                       <p className="font-medium text-sm mb-1">Phone</p>
                       <p className="text-sm text-muted-foreground">
-                        +1 (555) 123-4567
+                        +91 7455896364
                       </p>
                     </div>
                   </div>
@@ -115,7 +115,7 @@ const Contact = () => {
                     <div>
                       <p className="font-medium text-sm mb-1">Office</p>
                       <p className="text-sm text-muted-foreground">
-                        San Francisco, CA<br />United States
+                        Muradnagar, India
                       </p>
                     </div>
                   </div>
