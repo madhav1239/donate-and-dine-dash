@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © 2024 Ann Daan. All rights reserved. Built with ❤️ for a better world.
+            © 2025 Ann Daan. All rights reserved.
           </p>
         </div>
       </div>
